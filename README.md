@@ -1,2 +1,3 @@
-# doomemacs
-~/doom.d/ configuration files
+### doomemacs
+~/emacs.d/early-init.el
+~/doom.d/
