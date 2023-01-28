@@ -1,6 +1,8 @@
-### [**depreciated**] Doomemacs
+### [**OFF**] Doomemacs *replaced with a vanilla [[Emacs]] configuration* 
 
-- '~/emacs.d/early-init.el'
-- '~/doom.d/config.el'
-- '~/doom.d/init.el'
-- '~/doom.d/packages.el'
+- `~/emacs.d/early-init.el`
+- `~/doom.d/config.el`
+- `~/doom.d/init.el`
+- `~/doom.d/packages.el`
+
+### Emacs
