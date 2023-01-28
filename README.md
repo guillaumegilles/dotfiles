@@ -1,4 +1,4 @@
-### [*depreciated*] Doomemacs
+### [**depreciated**] Doomemacs
 
 - '~/emacs.d/early-init.el'
 - '~/doom.d/config.el'
