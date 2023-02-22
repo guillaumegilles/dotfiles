@@ -3,11 +3,13 @@
 `.bashrc`
 
 
-### [**OFF**] Doomemacs: *replaced with a vanilla [Emacs](#emacs) configuration* 
+### ~/.doom.d 
 
-- `~/.emacs.d/early-init.el`
 - `~/.doom.d/config.el`
 - `~/.doom.d/init.el`
 - `~/.doom.d/packages.el`
 
-### Emacs
+
+### ~/.emacs.d
+
+- `~/.emacs.d/early-init.el`
