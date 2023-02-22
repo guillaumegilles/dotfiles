@@ -1,3 +1,8 @@
+## ~/
+
+`.bashrc`
+
+
 ### [**OFF**] Doomemacs: *replaced with a vanilla [Emacs](#emacs) configuration* 
 
 - `~/.emacs.d/early-init.el`
