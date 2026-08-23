@@ -1,0 +1,28 @@
+{
+    //----------------- User Interface -----------------//
+    //-------------------------------------------------//
+    "workbench.activityBar.location": "top",
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.iconTheme": "catppuccin-macchiato",
+    "editor.fontFamily": "'IBM Plex Mono'",
+    "window.menuBarVisibility": "compact",
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.editor.showTabs": "single",
+    //--------------------------------------------------//
+    "files.associations": {
+        "renv.lock": "json"
+    },
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    //--------------- Project Manager ----------------//
+    "projectManager.git.maxDepthRecursion": 3,
+    "nextEditSuggestions.enabled": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+}

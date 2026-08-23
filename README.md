@@ -27,7 +27,7 @@ Homebrew.
   # Make it default shell
   chsh -s $(which zsh)
   ```
-  
+
 **Restart you machine to use the new default shell. To test if it worked:**
 
   ```sh
@@ -50,7 +50,7 @@ Homebrew.
   ```sh
   # Install Homebrew
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  
+
   # Then pass in the Brewfile location...
   brew bundle --file ~/.dotfiles/Brewfile
   ```
@@ -63,38 +63,6 @@ Homebrew.
   ```
 
 ## Software Configurations
-
-### Thunderbird
-
-#### **Step 1**: Check IMAP folder subscription
-
-1. In Thunderbird, right-click your **@me.com account** in the left sidebar.
-2. Select **Subscribe…**.
-3. Make sure the following iCloud folders are subscribed:
-
-- **Sent Messages**
-- **Deleted Messages**
-- **Drafts**
-- **Junk**
-
-1. Click **OK**.
-
-#### **Step 2**: Map the special folders
-
-1. Right-click the **account name** in the sidebar → choose **Settings**.
-2. Go to **Copies & Folders**.
-
-   - Under **Sent Messages**, select “Place a copy in → Other → Sent
-     Messages on \<your @me.com account>.”
-   - Under **Drafts and Templates**, select the correct **Drafts**
-     folder on the @me.com account.
-   - For **Archives**, point to the iCloud **Archive** folder (if you
-     use it).
-
-3. Go to **Server Settings** (still in Account Settings).
-
-   - Under **When I delete a message**, select **Move it to this folder
-     → Deleted Messages on \<your @me.com account>**.
 
 ## TODO List
 
@@ -272,6 +240,7 @@ sudo apt install virtualbox virtualbox-ext-pack
 Follow the official Parrot documentation for importing the image into VirtualBox:
 
 🔗 [Install Parrot OS on VirtualBox](https://www.parrotsec.org/docs/virtualization/install-parrot-on-virtualbox)
+
 - Encrypt Disk
 - virtualbox encryption
 <https://academy.hackthebox.com/module/87/section/882>
@@ -295,6 +264,7 @@ Crucial RAM CT16G4SFD824A 16Go DDR4 2400MHz CL17 Mémoire d’ordinateur Portabl
 ### Ghostty
 
 ### starship
+
 <https://starship.rs/>
 
 ### TUI
@@ -345,9 +315,11 @@ Bitwardan or proton
 - [ ] [Joplin](https://joplinapp.org/help/install/)
 
 ### Windows Manager
+
 <https://github.com/hyprwm/Hyprland?tab=readme-ov-file>
 
 ### Webapp
+
 <https://github.com/basecamp/omarchy/blob/master/bin/omarchy-webapp-install>
 
 ### AI
@@ -425,8 +397,8 @@ testssl.sh
   4. stow .
 - [ ] shell script pour créer automatiquement la structure d’un répertoire, [[🗃️ directory.tree]] selon un fichier txt.
 - [ ] Créer deux repo distincts pour :
- 	- [ ] 1. [[🧰 tool.list#Host machine]]
- 	- [ ] 2. [[🧰 tool.list#linux pentest virtual-machine]]
+  - [ ] 1. [[🧰 tool.list#Host machine]]
+  - [ ] 2. [[🧰 tool.list#linux pentest virtual-machine]]
 - [ ] nextcloud
 - [ ] discord
 - [ ] web: firefox
