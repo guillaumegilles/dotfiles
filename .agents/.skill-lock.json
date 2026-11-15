@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "skills": {
+    "layers-conceptual-model": {
+      "source": "jamiemill/layers-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jamiemill/layers-skills.git",
+      "skillPath": "skills/layers-conceptual-model/SKILL.md",
+      "skillFolderHash": "58417ffa95a65d523bc3ab8c951eac07c00485ab",
+      "installedAt": "2026-09-08T19:55:29.364Z",
+      "updatedAt": "2026-09-08T19:55:29.364Z"
+    },
+    "layers-domain": {
+      "source": "jamiemill/layers-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jamiemill/layers-skills.git",
+      "skillPath": "skills/layers-domain/SKILL.md",
+      "skillFolderHash": "ac33a7da3f5327eddc046fc26917a2b4f8554032",
+      "installedAt": "2026-09-08T19:55:29.365Z",
+      "updatedAt": "2026-09-08T19:55:29.365Z"
+    },
+    "layers-interaction-flow": {
+      "source": "jamiemill/layers-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jamiemill/layers-skills.git",
+      "skillPath": "skills/layers-interaction-flow/SKILL.md",
+      "skillFolderHash": "fe485df167b7f89becfef3111560ce625e8c899b",
+      "installedAt": "2026-09-08T19:55:29.371Z",
+      "updatedAt": "2026-09-08T19:55:29.371Z"
+    },
+    "layers-intro": {
+      "source": "jamiemill/layers-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jamiemill/layers-skills.git",
+      "skillPath": "skills/layers-intro/SKILL.md",
+      "skillFolderHash": "b9c28f742f8d99c5439a2617fcdd0a697eb5dbb6",
+      "installedAt": "2026-09-08T19:55:29.372Z",
+      "updatedAt": "2026-09-08T19:55:29.372Z"
+    },
+    "layers-observed-behaviour": {
+      "source": "jamiemill/layers-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jamiemill/layers-skills.git",
+      "skillPath": "skills/layers-observed-behaviour/SKILL.md",
+      "skillFolderHash": "61046f126b082676d864b7a591f1e4228630eb96",
+      "installedAt": "2026-09-08T19:55:29.372Z",
+      "updatedAt": "2026-09-08T19:55:29.372Z"
+    },
+    "layers-orient": {
+      "source": "jamiemill/layers-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jamiemill/layers-skills.git",
+      "skillPath": "skills/layers-orient/SKILL.md",
+      "skillFolderHash": "fddcc2955989f7ec5a0744400e5db99664eb3208",
+      "installedAt": "2026-09-08T19:55:29.372Z",
+      "updatedAt": "2026-09-08T19:55:29.372Z"
+    },
+    "layers-product-strategy": {
+      "source": "jamiemill/layers-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jamiemill/layers-skills.git",
+      "skillPath": "skills/layers-product-strategy/SKILL.md",
+      "skillFolderHash": "6aaee6ac382981b992e03b92b38281c0873cdeef",
+      "installedAt": "2026-09-08T19:55:29.372Z",
+      "updatedAt": "2026-09-08T19:55:29.372Z"
+    },
+    "layers-surface": {
+      "source": "jamiemill/layers-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jamiemill/layers-skills.git",
+      "skillPath": "skills/layers-surface/SKILL.md",
+      "skillFolderHash": "f8f64c0a6f0a138830111a2fded72c46edec84c5",
+      "installedAt": "2026-09-08T19:55:29.372Z",
+      "updatedAt": "2026-09-08T19:55:29.372Z"
+    },
+    "layers-user-needs": {
+      "source": "jamiemill/layers-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/jamiemill/layers-skills.git",
+      "skillPath": "skills/layers-user-needs/SKILL.md",
+      "skillFolderHash": "c492b624ba45f84fd4a76380d0caae44922d4de8",
+      "installedAt": "2026-09-08T19:55:29.373Z",
+      "updatedAt": "2026-09-08T19:55:29.373Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
+      "installedAt": "2026-09-08T19:57:04.718Z",
+      "updatedAt": "2026-09-08T19:57:04.718Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "cline",
+    "codex",
+    "cursor",
+    "droid",
+    "gemini-cli",
+    "github-copilot",
+    "kilo",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
+}
