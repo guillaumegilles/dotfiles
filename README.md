@@ -10,7 +10,7 @@ One-liner — prerequisite: an SSH key on the new machine, already added to
 GitHub (see [GitHub docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)):
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/skekcoon/dotfiles/main/bootstrap.sh | bash
+curl -fsSL https://raw.githubusercontent.com/guillaumegilles/dotfiles/main/bootstrap.sh | bash
 ```
 
 `bootstrap.sh` is idempotent (safe to re-run) and automates the manual steps
@@ -26,9 +26,9 @@ xcode-select --install
 # Apple Silicon prefix: /opt/homebrew   |   Intel prefix: /usr/local
 
 # 3. Clone this repo into a hidden directory
-git clone git@github.com:skekcoon/dotfiles.git ~/.dotfiles
+git clone git@github.com:guillaumegilles/dotfiles.git ~/.dotfiles
 # (HTTPS works too; switch the remote later with:
-#  git remote set-url origin git@github.com:skekcoon/dotfiles.git)
+#  git remote set-url origin git@github.com:guillaumegilles/dotfiles.git)
 
 # 4. Install every formula / cask / uv tool declared in the Brewfile
 brew bundle --file ~/.dotfiles/Brewfile

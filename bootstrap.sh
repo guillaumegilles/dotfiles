@@ -3,7 +3,7 @@
 # bootstrap.sh — set up a new Mac from this dotfiles repo.
 #
 # Usage (from a fresh Mac, after adding an SSH key to GitHub):
-#   curl -fsSL https://raw.githubusercontent.com/skekcoon/dotfiles/main/bootstrap.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/guillaumegilles/dotfiles/main/bootstrap.sh | bash
 # or from a local clone:
 #   ./bootstrap.sh
 #
@@ -12,8 +12,8 @@
 set -euo pipefail
 
 DOTFILES_DIR="$HOME/.dotfiles"
-REPO_SSH="git@github.com:skekcoon/dotfiles.git"
-REPO_HTTPS="https://github.com/skekcoon/dotfiles.git"
+REPO_SSH="git@github.com:guillaumegilles/dotfiles.git"
+REPO_HTTPS="https://github.com/guillaumegilles/dotfiles.git"
 
 echo "==> 1/7 Xcode Command Line Tools"
 if ! xcode-select -p &>/dev/null; then
