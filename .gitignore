@@ -1,2 +1,8 @@
 .pi/agent/auth.json
 .config/kaggle/kaggle.json
+# cloned at bootstrap time by bootstrap.sh, not committed
+.oh-my-zsh/custom/
+# uv-generated receipt (contains machine-specific absolute paths)
+.config/uv/
+# iTerm2 runtime artifacts (sockets, secrets) — real config is exported via Preferences
+.config/iterm2/

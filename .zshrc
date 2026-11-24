@@ -1,23 +1,26 @@
-#------------------------------------------------------------------------------#
-#                                  PATH                                        #
-#------------------------------------------------------------------------------#
+## ----- PATH
+
+# User-local tools (uv, vibe, fzf, ...) — must be on PATH BEFORE oh-my-zsh
+# loads, otherwise plugins like fzf can't find their binaries
+export PATH="$HOME/.local/bin:$PATH"
 
 # Path to your Oh My Zsh installation
 export ZSH="$HOME/.oh-my-zsh"
 
-# Homebrew Path
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# Homebrew Path (prefix differs per platform: /opt/homebrew on Apple Silicon,
+# /usr/local on Intel macOS, /home/linuxbrew/.linuxbrew on Linux)
+for brew_bin in /opt/homebrew/bin/brew /usr/local/bin/brew /home/linuxbrew/.linuxbrew/bin/brew; do
+  if [[ -x "$brew_bin" ]]; then eval "$("$brew_bin" shellenv)"; break; fi
+done
 
-#------------------------------------------------------------------------------#
-#             Starship Prompt: Set up your shell to use Starship               #
-#------------------------------------------------------------------------------#
+# opencode
+export PATH=/home/guillaume/.opencode/bin:$PATH
+
+# Set up your shell to use Starship
 eval "$(starship init zsh)"
 
-#------------------------------------------------------------------------------#
-#                        Opt out of Homebrew’s analytic                        #
-#------------------------------------------------------------------------------#
+# Opt out of Homebrew’s analytic
 export HOMEBREW_NO_ANALYTICS=1
-
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -118,10 +121,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# opencode
-export PATH=/home/guillaume/.opencode/bin:$PATH
+. "$HOME/.local/bin/env"
+
+# Quarto 1.11.9 bundles a dart-sass (Dart SDK 3.12) that requires macOS 14+;
+# this machine runs macOS 12, so point Quarto at a compatible dart-sass 1.80.6.
+export QUARTO_DART_SASS="$HOME/bin/dart-sass/sass"
